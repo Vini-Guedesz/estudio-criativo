@@ -1,0 +1,43 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Ligação das skills (o instalador recria)
+.claude/skills
+
+# Mídia pesada: fica no disco ou no Drive, nunca no git
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.m4v
+*.avi
+*.wav
+*.mp3
+*.m4a
+*.aac
+*.flac
+*.ogg
+*.aep
+*.aep Logs/
+*.prproj
+*.psd
+*.zip
+node_modules/
+
+# Locais
+*.md.bak-*
+.ai-memory.local.toml
+.env
+*.log
+.DS_Store
+Thumbs.db
+
+# 04-marcas: rascunhos e arquivos gerados ficam só no disco; o final/ aprovado entra (menos vídeo e áudio, acima)
+04-marcas/*/*/*/rascunhos/
+04-marcas/*/identidade/design-tokens/saida/
+
+# Configuração de MCP desta máquina (o instalador gera)
+.mcp.json
+02-ferramentas/inventario.md
