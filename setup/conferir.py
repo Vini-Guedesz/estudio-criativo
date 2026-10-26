@@ -206,8 +206,10 @@ for m in marcas:
     logos = list((ident / "logo").glob("*.svg")) if (ident / "logo").exists() else []
     item(g, "Logo", bool(logos), f"{len(logos)} SVG" if logos else "ainda sem logo em identidade/logo/")
     cal = m / "calendario.md"
-    plano = cal.exists() and re.search(r"^\| \d{4}-\d{2}-\d{2} \|", cal.read_text(encoding="utf-8"), re.M)
-    item(g, "Calendário", bool(plano), "com peças planejadas" if plano else "vazio (skill redes-sociais)")
+    texto_cal = cal.read_text(encoding="utf-8") if cal.exists() else ""
+    plano_txt = texto_cal.split("## Plano", 1)[1] if "## Plano" in texto_cal else ""
+    plano = [l for l in plano_txt.splitlines() if l.startswith("| ") and not l.startswith("| Data ")]
+    item(g, "Calendário", bool(plano), f"{len(plano)} peça(s) planejada(s)" if plano else "vazio (skill redes-sociais)")
 
 # Saída -------------------------------------------------------------------------
 faltam_essenciais = [n for _, n, ok, _, e in linhas if e and not ok]

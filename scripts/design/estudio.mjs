@@ -1,10 +1,22 @@
 // Caminhos do estúdio para os scripts Node: as mesmas regras do scripts/_estudio.py (mudou lá? mude aqui).
 // Tudo de uma marca fica em 04-marcas/<marca>/; cada peça em 04-marcas/<marca>/<tipo>/AAAA-MM-DD-tema/.
 import { existsSync, readdirSync, statSync, mkdirSync } from 'node:fs';
+import { createRequire } from 'node:module';
 import { dirname, join, resolve, relative, basename } from 'node:path';
-import { fileURLToPath } from 'node:url';
+import { fileURLToPath, pathToFileURL } from 'node:url';
 
 export const AQUI = dirname(fileURLToPath(import.meta.url));
+export const NODE_MODULES = join(AQUI, 'node_modules');
+
+// Biblioteca instalada em scripts/design, para scripts que moram fora daqui (ex.: os geradores próprios de uma
+// marca em 04-marcas/<marca>/modelos/geradores/). Devolve { padrao, ...exportações }:
+//   const { padrao: satori } = await doDesign('satori');   const { Resvg } = await doDesign('@resvg/resvg-js');
+const requireDesign = createRequire(join(AQUI, 'package.json'));
+export async function doDesign(nome) {
+  const m = await import(pathToFileURL(requireDesign.resolve(nome)).href);
+  const base = m.default ?? m;
+  return { padrao: base.default ?? base, ...base };
+}
 export const RAIZ = resolve(AQUI, '..', '..');
 export const MARCAS = join(RAIZ, '04-marcas');
 // Pasta de onde o comando foi chamado (o npm muda para scripts/design; INIT_CWD guarda a original).
