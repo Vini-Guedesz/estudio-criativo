@@ -87,7 +87,7 @@ Abra o Claude Code na pasta do projeto e peça em português, do seu jeito. Exem
 - **Memória entre sessões** com o [ai-memory](https://github.com/akitaonrails/ai-memory): o que foi decidido ontem, a IA sabe hoje.
 - **Entrevistas guiadas** sobre você (`01-sobre-mim/perfil.md`) e sobre a marca (`04-marcas/<marca>/identidade/briefing.md`).
 - **Método de vídeo do zero** em 10 etapas (`06-metodo/`).
-- **Skills do estúdio:** `estudio-video`, `video-referencias`, `motion-narrado`, `animacao-saas`, `ui-para-video`, `som-do-video`, `copy-redes` (gancho, legenda, carrossel, roteiro curto, bio, voz da marca), `redes-sociais` (calendário, plataformas, reaproveitamento, métricas e relatório) e `referencias-e-estilos` (mural de links, fichas de estilo e o pontapé inicial pelas referências).
+- **Skills do estúdio:** `estudio-video`, `video-referencias`, `motion-narrado`, `animacao-saas`, `ui-para-video`, `som-do-video`, `copy-redes` (gancho, legenda, carrossel, roteiro curto, bio, voz da marca), `redes-sociais` (calendário, plataformas, reaproveitamento, métricas e relatório) `referencias-e-estilos` (mural de links, fichas de estilo e o pontapé inicial pelas referências) e `canal-dark` (canal sem rosto no YouTube: normas do canal, formatos, fontes, roteiro com retenção, publicação, rótulo de IA e crescimento).
 - **16 fichas de estilo visual** (`03-referencias/estilos/`): pixel art, neobrutalismo, glassmorfismo, minimalismo suíço, clean tech, Y2K, synthwave, VHS, flat, 3D clay, colagem, risografia, Memphis, tipografia cinética, luxo escuro e doodle.
 - **Scripts de som e vídeo:** mixagem a partir dos eventos da animação, nivelamento de efeitos sonoros, batidas da música, separação de voz, legendas, corte de pausas e análise quadro a quadro.
 - **Uma pasta por marca** (`04-marcas/`) com identidade, referências e todas as peças (reels, posts, carrosséis, stories, vídeos), sempre com `rascunhos/` e `final/`. Ferramentas de design detalhadas abaixo.
@@ -183,6 +183,7 @@ Este estúdio junta ferramentas de código aberto e gratuitas. Obrigado a quem a
 - **IA e memória:** [Claude Code](https://claude.com/claude-code), [ai-memory](https://github.com/akitaonrails/ai-memory), [skills da Anthropic](https://github.com/anthropics/skills)
 - **Base:** [uv](https://github.com/astral-sh/uv), [Playwright](https://github.com/microsoft/playwright)
 - **Copy e redes:** parte das skills `copy-redes` e `redes-sociais` foi adaptada do pacote `kit-510-ptbr` de [kursku/skills](https://github.com/kursku/skills) (© Cafe Code AI, licença MIT; detalhes em [TERCEIROS.md](TERCEIROS.md))
+- **Canal dark:** a skill `canal-dark` adapta métodos de [faceless-video-skills](https://github.com/kamalammouri/faceless-video-skills), [lanternist](https://github.com/DamaizLabs/lanternist), [stickman-video-director](https://github.com/kaomei/stickman-video-director), [claude-youtube](https://github.com/AgriciDaniel/claude-youtube), [claude-shorts](https://github.com/AgriciDaniel/claude-shorts), [claude-faceless-shorts-creator](https://github.com/hassancs91/claude-faceless-shorts-creator) e [youtube-skills](https://github.com/sergebulaev/youtube-skills) (todos MIT; detalhes em [TERCEIROS.md](TERCEIROS.md))
 
 ## Licença
 

@@ -1,0 +1,1 @@
+- 01/11 — [Pesquisa de skills para canal dark](2026-11-01-skills-canal-dark.md)

@@ -39,13 +39,14 @@ Se a pessoa pedir outra coisa primeiro, atenda e lembre do pendente no fim.
 | Método de vídeo, números que valem e aprendizados | [06-metodo/](06-metodo/_LEIA.md) |
 | Scripts de áudio, vídeo, design e revisão | [scripts/](scripts/_LEIA.md) |
 | Registro de cada sessão | [anotacoes/](anotacoes/_LEIA.md) |
-| Skills (motion, som, referências, texto e planejamento de redes) | `.agents/skills/` (o `.claude/skills` aponta para a mesma pasta) |
+| Skills (motion, som, referências, texto, planejamento de redes e canal dark) | `.agents/skills/` (o `.claude/skills` aponta para a mesma pasta) |
 
 ## Regras de trabalho
 
 - **Toda peça mora na marca dela, no padrão de [04-marcas/_LEIA.md](04-marcas/_LEIA.md).** Crie com `uv run scripts/peca.py nova <tipo> "tema"` antes de produzir. Render, exportação e post gerado vão direto para `rascunhos/` da peça, com o nome que `peca.py rascunho` der. `final/` só recebe o que o dono aprovou, pelo `peca.py aprovar`. Nunca salve peça em outro lugar (pasta solta, área de trabalho, pasta do motor).
 - **Texto de redes é da `copy-redes`; plano e números, da `redes-sociais`.** Legenda, gancho e carrossel vão para o `copy.md` da peça; o calendário e os resultados, para `calendario.md` e `resultados.md` da marca. Nenhum número, depoimento ou resultado inventado.
 - **Escolha a ferramenta pela tabela de [02-ferramentas/_LEIA.md](02-ferramentas/_LEIA.md#qual-ferramenta-usar)** (código, Inkscape, PhotoCraft, HyperFrames, Remotion, EffectCraft, After Effects) e diga ao dono qual vai usar e por quê. Nada de animador ou editor improvisado quando o estúdio já tem a ferramenta.
+- **Canal dark (sem rosto) segue a skill `canal-dark`:** normas fixas do canal, fontes verificadas, o dono aprova tema, roteiro, áudio, quadros e publicação, e nada de esconder o uso de IA ou publicar sem ele.
 - **Vídeo começa em [06-metodo/video-do-zero.md](06-metodo/video-do-zero.md).** Os números (mola, câmera, volume, render) moram só em [06-metodo/regras.md](06-metodo/regras.md); se outro doc trouxer um número diferente, vale o desse arquivo.
 - **Referência antes de produzir.** Antes de animar ou gerar imagem, procure em `03-referencias/`, no mural e em `referencias/` da marca e na biblioteca, e leia a ficha do estilo em `03-referencias/estilos/`. Marca ou peça sem direção visual começa pelo pontapé inicial da skill `referencias-e-estilos`. Sem referência, o resultado sai genérico.
 - **Todo insumo analisado vira doc.** Link, vídeo, post, site ou print que você analisou ganha um doc em `03-referencias/analises/`, detalhado o bastante para ninguém precisar reabrir a fonte.

@@ -39,6 +39,19 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
+### Skills de canal dark: YouTube sem rosto
+
+- **Origem e autores:**
+  - https://github.com/kamalammouri/faceless-video-skills (Copyright (c) 2026 Kamal Ammouri)
+  - https://github.com/DamaizLabs/lanternist (Copyright (c) 2026 DamaizLabs)
+  - https://github.com/kaomei/stickman-video-director (Copyright (c) 2026 Stickman Video Director contributors)
+  - https://github.com/AgriciDaniel/claude-youtube (Copyright (c) 2025 Daniel Agrici)
+  - https://github.com/AgriciDaniel/claude-shorts (Copyright (c) 2026 Daniel Agrici)
+  - https://github.com/hassancs91/claude-faceless-shorts-creator (Copyright (c) 2026 Hasan Aboul Hasan)
+  - https://github.com/sergebulaev/youtube-skills (Copyright (c) 2026 Sergey Bulaev)
+- **Licença:** MIT, todas (o mesmo texto do bloco acima, trocando a linha de copyright pela de cada autor).
+- **Onde está aqui:** ideias e métodos adaptados e reescritos em português em `.agents/skills/canal-dark/`. Nenhum arquivo foi copiado inteiro. O que veio de cada um e o que ficou de fora está em [.agents/skills/canal-dark/references/origem.md](.agents/skills/canal-dark/references/origem.md).
+
 ## Ao acrescentar material de terceiros
 
 Todo texto, código, fonte, imagem ou som de terceiros que for colocado dentro do repositório ganha uma seção aqui: origem, autor, licença e onde está. Se a licença não permitir redistribuir, o material não entra no repositório: o instalador baixa na máquina de cada um.

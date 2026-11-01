@@ -37,6 +37,7 @@ Partes podem nascer em código (HyperFrames ou Remotion) e ser finalizadas no Af
 | Peça ou marca sem direção visual, links de referência, "quero nesse estilo" | [referencias-e-estilos](../referencias-e-estilos/SKILL.md) (mural, fichas de estilo, direções) |
 | Qualquer vídeo com motion | [video-referencias](../video-referencias/SKILL.md) antes de tudo |
 | Narrado: explicativo, tutorial, anúncio com voz | [motion-narrado](../motion-narrado/SKILL.md) |
+| Canal dark (sem rosto) no YouTube: episódio, Short de chamada, miniatura, publicação | [canal-dark](../canal-dark/SKILL.md) (normas do canal, fontes e paradas do dono; a montagem segue as receitas desta tabela) |
 | Produto, software, lançamento, "apresentando", demo | [animacao-saas](../animacao-saas/SKILL.md) (narrado: soma com a `motion-narrado`) |
 | Tela de app ou site recriada dentro do vídeo | [ui-para-video](../ui-para-video/SKILL.md) |
 | Trilha, efeitos, mix | [som-do-video](../som-do-video/SKILL.md) |

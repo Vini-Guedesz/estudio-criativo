@@ -33,6 +33,7 @@ O calendário diz **o que** e **quando**. A peça diz **como**. Toda linha do ca
 | "Arruma minha bio / meus destaques" | `copy-redes` ([estruturas.md · bio](../copy-redes/references/estruturas.md#bio)) |
 | Texto de uma peça (legenda, gancho, carrossel) | skill `copy-redes` |
 | Produzir o vídeo | skill `estudio-video` |
+| Canal dark no YouTube (normas, auditoria, "por que não decola", cortes) | skill `canal-dark`; o calendário e os números continuam aqui |
 
 ## As regras
 

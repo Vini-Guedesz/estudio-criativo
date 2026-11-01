@@ -64,3 +64,26 @@ Pontos de partida das skills `copy-redes` e `redes-sociais`. As plataformas muda
 | CTA | um por peça, no fim e repetido na legenda |
 | Hashtags | 3 a 5 específicas por peça (LinkedIn: até 3) |
 | Números da peça | registrar 7 dias depois de publicar; média da conta a partir de 10 peças por formato |
+
+## Canal dark
+
+Pontos de partida da skill `canal-dark` para YouTube longo e Shorts. As normas de cada canal (`04-marcas/<canal>/identidade/normas-do-canal.md`) podem fixar outros valores; o `resultados.md` do canal manda assim que houver dados.
+
+| Regra | Valor de partida |
+|---|---|
+| Narração em português | ~150 palavras por minuto (~2,5 por segundo); medir a voz do canal no primeiro episódio e anotar nas normas. Short: deixar folga, no máximo ~2,7 palavras por segundo |
+| Frase do roteiro | 12 a 22 palavras, nunca mais de 25; uma frase por linha |
+| Explicador | 4 a 7 min (padrão 5 ≈ 750 a 900 palavras) |
+| História de sobrevivência | 10 a 12 min |
+| Primeiros 30 s | palavra do título nas 2 primeiras frases; promessa do título cumprida até 10 s; pergunta do título antes de 30 s |
+| Troca de estímulo | longo: algo novo a cada ~30 s; Short: a cada 2 a 3 s |
+| Imagem por frase | 3 a 6 s na tela; insert de dado a cada ~14 imagens, nunca dois seguidos |
+| Chamada para se inscrever | depois da primeira entrega de valor (~60% no explicador); nunca só no fim |
+| Anúncio no meio | só em vídeo de 8 min ou mais (regra do YouTube); não encher para chegar lá |
+| Título | até 60 caracteres contados por código; gancho nos primeiros ~45 |
+| Miniatura | 1280x720 (ou 1920x1080), menos de 2 MB; 2 a 4 palavras; 30 a 40% de espaço vazio |
+| Descrição | gancho nos primeiros ~150 caracteres; 3 hashtags (mais de 15 = todas ignoradas) |
+| Capítulos | primeiro em 0:00, pelo menos 3, cada um com 10 s ou mais; no explicador, 7 a 10 de 30 a 60 s |
+| Tags | até 500 caracteres, só erros de digitação e desambiguação |
+| Short de chamada | 35 a 55 s, os tempos 1 e 2 do roteiro, 9:16 com fundo desfocado |
+| Notificações | no máximo 3 por canal a cada 24 h |
