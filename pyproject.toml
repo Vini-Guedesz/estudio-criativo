@@ -34,6 +34,11 @@ design = [
     "fonttools>=4.50",     # inspeciona e recorta fontes
     "jinja2>=3.1",         # modelos de post em HTML preenchidos por dados
 ]
+# Narração com voz pronta, local e grátis: Kokoro (vozes pt-BR, Apache-2.0). Junto com cpu ou gpu:
+#   uv sync --extra gpu --extra voz
+voz = [
+    "kokoro>=0.9.4",       # motor de voz; para português usa o espeak-ng embutido (espeakng-loader)
+]
 cpu = [
     "torch>=2.6",
     "torchaudio>=2.6",

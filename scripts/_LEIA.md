@@ -67,6 +67,7 @@ Os detalhes e o método estão na skill `som-do-video` e no [README da bibliotec
 | `uv run scripts/som/verificar_som_de_cena.py <mix>` | reprova som de cena alto demais antes da entrega |
 | `uv run scripts/som/batida.py <musica>` | batidas, tempos fortes e BPM (precisa da IA de áudio) |
 | `uv run scripts/som/separar.py <musica>` | separa voz e instrumental (precisa da IA de áudio) |
+| `uv run scripts/som/narrar.py roteiro.md --voz pf_dora --saida audio/narracao.wav` | narração com voz pronta pt-BR (Kokoro, local e grátis); mostra duração e palavras por minuto. `amostras --saida <pasta>` gera o mesmo texto nas 3 vozes. Precisa de `uv sync --extra gpu --extra voz` |
 
 ## Teste automático
 

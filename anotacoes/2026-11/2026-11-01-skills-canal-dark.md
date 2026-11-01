@@ -14,3 +14,11 @@
 - **Feito:** padrão do Short de chamada e dos cortes mudou para 61 a 90 s (máximo 3 min), montado na vertical, mesmo arquivo para YouTube Shorts, Reels e TikTok. Atualizados `06-metodo/regras.md` (seção Canal dark) e, na skill `canal-dark`, `publicacao.md`, `formatos.md`, `crescimento.md` e `normas-do-canal.md`.
 - **Decisões:** música só com licença liberada (no YouTube, Short com mais de 1 min e qualquer reivindicação do Content ID é bloqueado no mundo todo); arquivo exportado sem marca d'água e subido em cada rede; Short refeito na vertical em vez de vídeo horizontal sobre fundo desfocado (este fica como plano B).
 - **Verificação:** limite de 3 min e bloqueio por Content ID conferidos na ajuda oficial do YouTube; regra de mais de 1 min do TikTok vista em fontes de terceiros (conferir na página oficial do TikTok antes de contar com o pagamento).
+
+## Motor de voz
+
+- **Pedido:** escolher o motor de voz; o dono escolheu voz pronta, sem gravar.
+- **Feito:** extra `voz` (Kokoro) no `pyproject.toml`; `uv sync --extra gpu --extra voz` criou o `.venv` (PyTorch 2.11 + CUDA 12.8, a RTX 5060 foi reconhecida). Script novo `scripts/som/narrar.py` (roteiro uma frase por linha → WAV 24 kHz, mostra palavras por minuto). Amostras das 3 vozes pt-BR em `05-biblioteca/vozes/amostras/` (fora do git). `02-ferramentas/voz.md` reescrito, `scripts/_LEIA.md` e créditos do `README.md` atualizados.
+- **Decisões:** Kokoro (Apache-2.0) por ser grátis, local e ter vozes pt-BR; opções de clone (Chatterbox MIT, Qwen3-TTS) registradas para depois.
+- **Verificação:** as 3 amostras transcritas com faster-whisper (CPU; na GPU falta a cublas do CUDA 12 para o CTranslate2) e o texto bate. Nome estrangeiro sai soletrado ("McGill"). `uv run scripts/testar.py`: 27 de 27 ok (design pulado). A IA não ouve o áudio: falta o dono ouvir e escolher a voz.
+- **Próximo:** o dono ouve as amostras e escolhe a voz e a velocidade; a escolha vai para as normas do canal.
