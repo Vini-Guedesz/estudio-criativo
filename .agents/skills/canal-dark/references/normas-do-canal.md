@@ -29,7 +29,7 @@ Copie daqui:
 
 - Formato: … (ver formatos.md da skill canal-dark)
 - Duração do vídeo longo: … a … min (padrão …)
-- Short: … (ex.: um Short de chamada por vídeo longo)
+- Short: … (padrão do estúdio: um Short de chamada de 61 a 90 s por vídeo longo, o mesmo arquivo no YouTube, no Instagram e no TikTok)
 - Estrutura: … (ex.: os 8 tempos do explicador)
 - Bordões fixos (abertura, encerramento): … ou nenhum
 

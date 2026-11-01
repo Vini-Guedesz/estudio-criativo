@@ -85,5 +85,6 @@ Pontos de partida da skill `canal-dark` para YouTube longo e Shorts. As normas d
 | Descrição | gancho nos primeiros ~150 caracteres; 3 hashtags (mais de 15 = todas ignoradas) |
 | Capítulos | primeiro em 0:00, pelo menos 3, cada um com 10 s ou mais; no explicador, 7 a 10 de 30 a 60 s |
 | Tags | até 500 caracteres, só erros de digitação e desambiguação |
-| Short de chamada | 35 a 55 s, os tempos 1 e 2 do roteiro, 9:16 com fundo desfocado |
+| Short de chamada | 61 a 90 s (máximo 3 min), montado na vertical 9:16; o mesmo arquivo vai para YouTube Shorts, Reels e TikTok. No canal dark substitui a duração de partida geral de Reels, TikTok e Shorts |
+| Música em Short com mais de 1 min | só faixa com licença liberada: no YouTube, qualquer reivindicação do Content ID bloqueia esse Short no mundo todo |
 | Notificações | no máximo 3 por canal a cada 24 h |

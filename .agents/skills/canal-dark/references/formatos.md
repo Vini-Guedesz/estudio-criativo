@@ -46,7 +46,7 @@ Um paradoxo que a pessoa carrega no corpo ou no dia, explicado com nomes, datas 
 
 Personagem de traço simples com expressão forte, em ilustração com microanimação. Serve para psicologia, trabalho, negócios, histórias.
 
-- **Duração:** Short de 30 a 60 s ou vídeo de 3 a 10 min.
+- **Duração:** Short de 61 a 90 s ou vídeo de 3 a 10 min.
 - **Estrutura:** o arco em 5 etapas de [roteiro.md](roteiro.md#arco-em-5-etapas-curtos-e-bonequinho).
 - **Regra visual:** o texto âncora do personagem é repetido **igual** em toda imagem gerada; nada de "o mesmo personagem". Duas pernas, dois braços, proporção fixa. Personagem nunca parado: sempre fazendo uma ação concreta.
 
@@ -60,8 +60,8 @@ Lugares, objetos, eventos, empresas. Exige mais pesquisa e mais imagem real (fot
 
 ### 6. Short de chamada e Shorts próprios
 
-- **Short de chamada:** os primeiros 35 a 55 s do vídeo longo (abertura + crença errada + promessa), terminando na pergunta em aberto, ligado ao vídeo longo por "Vídeo relacionado". Receita em [publicacao.md](publicacao.md#short-de-chamada).
-- **Short próprio:** gancho já montado no quadro 0 (sem surgir do preto), revelação em 2 a 4 passos e último quadro igual ao primeiro, para dar loop. Termine na revelação, sem "comenta aí".
+- **Short de chamada:** de 61 a 90 s, montado na vertical com o material do vídeo longo (abertura + crença errada + promessa + primeira prova), terminando num laço aberto que leva ao vídeo longo. O mesmo arquivo vai para YouTube Shorts, Reels e TikTok (no TikTok, só vídeo com mais de 1 min entra no programa de pagamento). Receita em [publicacao.md](publicacao.md#short-de-chamada).
+- **Short próprio** (também de 61 a 90 s): gancho já montado no quadro 0 (sem surgir do preto), revelação em 2 a 4 passos e último quadro igual ao primeiro, para dar loop. Termine na revelação, sem "comenta aí".
 
 ## O que fica fixo e o que varia
 

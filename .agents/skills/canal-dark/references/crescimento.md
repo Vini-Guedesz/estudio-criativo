@@ -54,7 +54,7 @@ Quando o dono pergunta "por que não decola" ou pede uma auditoria:
 Para tirar Shorts de um vídeo já pronto (ou de uma gravação longa do dono):
 
 1. Transcreva com `uv run scripts/video/make_captions.py` (tempo de cada palavra).
-2. Liste 8 a 12 trechos de 15 a 55 s e dê nota de 0 a 100, com estes pesos:
+2. Liste 8 a 12 trechos de 61 a 90 s (até 3 min), para servirem também no Instagram e no TikTok, e dê nota de 0 a 100, com estes pesos:
 
 | Critério | Peso | O que procurar |
 |---|---|---|
@@ -66,4 +66,4 @@ Para tirar Shorts de um vídeo já pronto (ou de uma gravação longa do dono):
 
 3. Mostre a tabela (tempo, duração, nota, gancho sugerido para os 3 primeiros segundos, por que funciona) e o dono escolhe.
 4. Ajuste início e fim para nunca cortar no meio da palavra (pausas da transcrição).
-5. Cada corte vira peça `reels`, com legenda grande e área segura conferida. Cortes do mesmo vídeo publicados em dias diferentes, cada um com o vídeo longo como "Vídeo relacionado".
+5. Cada corte vira peça `reels`, com legenda grande, área segura conferida e as regras do [Short de chamada](publicacao.md#short-de-chamada) (música liberada, arquivo limpo para cada rede). Cortes do mesmo vídeo publicados em dias diferentes, cada um com o vídeo longo como "Vídeo relacionado".

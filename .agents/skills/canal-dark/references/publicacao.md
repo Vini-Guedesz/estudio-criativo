@@ -58,13 +58,21 @@ O horário é uma **hipótese** enquanto o canal não tiver dados. Depois, vale 
 
 ## Short de chamada
 
-Um Short por vídeo longo, feito com os tempos 1 e 2 do roteiro (abertura + crença errada + promessa), de 35 a 55 s, terminando na pergunta em aberto. `<fim>` é o início da primeira frase do tempo 3, tirado da transcrição:
+Um Short por vídeo longo, de **61 a 90 s**. Passar de 1 min é de propósito: o TikTok só paga pelo programa Creator Rewards vídeos com mais de 1 min, e Shorts e Reels aceitam até 3 min. O mesmo arquivo serve para YouTube Shorts, Instagram Reels e TikTok.
 
-```bash
-ffmpeg -y -i final/<tema>-videos.mp4 -t <fim> -vf "split[a][b];[a]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=30:3[bg];[b]scale=1080:-2[fg];[bg][fg]overlay=0:(H-h)/2" -c:a aac rascunhos/<tema>-reels-v1.mp4
-```
+- **O que entra:** abertura + crença errada + promessa + a primeira prova (tempos 1, 2 e o começo do 3 do explicador), terminando num laço aberto que só o vídeo longo fecha. Em outros formatos: o gancho e o primeiro terço da história, cortando antes da virada.
+- **Segurar mais de um minuto:** algo muda a cada 2 a 3 s, legenda grande o tempo todo e uma mini-revelação perto dos 45 a 60 s, para quem chegou ali ter motivo de ficar até o fim.
+- **Vertical de verdade.** Como vai para três redes, monte o Short em 9:16 a partir das mesmas imagens, inserts e narração (no HyperFrames ou Remotion: a cena ocupa a tela, os inserts são refeitos para o vertical), em vez de colar o vídeo horizontal sobre um fundo desfocado. O fundo desfocado fica como plano B rápido. `<fim>` é o ponto do laço aberto, tirado da transcrição:
 
-O Short vira uma peça própria (`uv run scripts/peca.py nova reels "tema"`). Título = a pergunta do vídeo + `#shorts`; "Vídeo relacionado" = o vídeo longo. Confira a área segura do 9:16 (regras.md) e ponha legenda grande.
+  ```bash
+  ffmpeg -y -i final/<tema>-videos.mp4 -t <fim> -vf "split[a][b];[a]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=30:3[bg];[b]scale=1080:-2[fg];[bg][fg]overlay=0:(H-h)/2" -c:a aac rascunhos/<tema>-reels-v1.mp4
+  ```
+
+- **Música só com licença liberada** (biblioteca do estúdio, Biblioteca de Áudio do YouTube ou trilha própria). No YouTube, Short com mais de 1 min e qualquer reivindicação do Content ID é bloqueado no mundo todo. Não use música famosa nem música da biblioteca de uma rede dentro do arquivo.
+- **Um arquivo limpo para cada rede.** Exporte do estúdio, sem marca d'água, e suba o mesmo arquivo em cada plataforma. Nunca baixe do TikTok para subir no Instagram: o Instagram já disse que mostra menos Reels com marca d'água de outro app.
+- **Rótulo de IA em cada rede**, pelas regras de cada uma ([politicas-ia.md](politicas-ia.md)).
+- **Chamada para o vídeo longo:** no YouTube, "Vídeo relacionado" = o vídeo longo e título = a pergunta do vídeo + `#shorts`. No Instagram e no TikTok o link não é clicável no vídeo: chamada falada ou na tela ("o vídeo completo está no YouTube") e link na bio. Legenda e hashtags de cada rede pela `copy-redes`.
+- O Short é uma peça própria (`uv run scripts/peca.py nova reels "tema"`), com a área segura do 9:16 conferida (regras.md) e as datas de cada rede no `calendario.md` da marca.
 
 ## Checklist antes de entregar
 
@@ -75,5 +83,5 @@ O Short vira uma peça própria (`uv run scripts/peca.py nova reels "tema"`). T�
 - [ ] Capítulos com os tempos reais do corte final.
 - [ ] Fontes e créditos na descrição; licenças de música, efeitos e imagens anotadas. O checklist não garante Content ID nem monetização: o que não tem prova de licença fica marcado como pendente.
 - [ ] Rótulo de IA decidido e anotado.
-- [ ] Short de chamada pronto, com área segura conferida.
+- [ ] Short de chamada pronto: 61 a 90 s, montado na vertical, área segura conferida, música com licença liberada, arquivo sem marca d'água.
 - [ ] Linha da peça atualizada no `calendario.md` da marca.
